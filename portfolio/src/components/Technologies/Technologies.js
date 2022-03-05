@@ -28,26 +28,28 @@ const Technologies = () => (
       </SectionText>
     </SlideUpWhenVisible>
     <SlideUpWhenVisible>
-      <List>
-          <DiReact size="3rem" />
-          <ListContainer>
-            <ListTitle>Front-End</ListTitle>
-            <ListParagraph>React.js, Next.js</ListParagraph>
-          </ListContainer>
-        <ListItem>
-          <DiNodejsSmall size="3rem" />
-          <ListContainer>
-            <ListTitle>Back-End</ListTitle>
-            <ListParagraph>Express.js</ListParagraph>
-          </ListContainer>
-        </ListItem>
-        <ListItem>
-          <DiFirebase size="3rem" />
-          <ListContainer>
-            <ListTitle>Databases</ListTitle>
-            <ListParagraph>MongoDb, MySql, Firebase</ListParagraph>
-          </ListContainer>
-        </ListItem>
+        <List>
+            <ListItem>
+            <DiReact size="3rem" />
+            <ListContainer>
+                <ListTitle>Front-End</ListTitle>
+                <ListParagraph>React.js, Next.js, Redux-Toolkit</ListParagraph>
+            </ListContainer>
+            </ListItem>
+            <ListItem>
+            <DiNodejsSmall size="3rem" />
+            <ListContainer>
+                <ListTitle>Back-End</ListTitle>
+                <ListParagraph>Express.js</ListParagraph>
+            </ListContainer>
+            </ListItem>
+            <ListItem>
+            <DiFirebase size="3rem" />
+            <ListContainer>
+                <ListTitle>Databases</ListTitle>
+                <ListParagraph>MongoDb, MySql</ListParagraph>
+            </ListContainer>
+            </ListItem>
       </List>
     </SlideUpWhenVisible>
   </Section>
