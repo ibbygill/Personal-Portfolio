@@ -26,9 +26,36 @@ export const List = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 3rem 0;
-`;
+`
 
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+export const ListItem = styled.li`
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const ListParagraph = styled.p`
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+`;
+
+export const ListTitle = styled.h3`
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 8px;
+`;
+
+export const ListParagraph = styled.p`
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
 `;
