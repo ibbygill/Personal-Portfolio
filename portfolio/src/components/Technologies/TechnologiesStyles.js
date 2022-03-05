@@ -39,12 +39,6 @@ export const ListItem = styled.li`
   flex-direction: column;
 `;
 
-export const ListParagraph = styled.p`
-  font-size: 18px;
-  line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
-`;
-
 export const ListTitle = styled.h3`
   font-weight: 700;
   font-size: 28px;
