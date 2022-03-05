@@ -36,7 +36,6 @@ export const CompanyContainer = styled.div`
   align-items: baseline;
   flex-wrap: wrap;
   margin-right: auto;
-
 `;
 
 export const Slogan = styled.p`
@@ -53,7 +52,6 @@ export const Slogan = styled.p`
 export const SocialContainer = styled.div`
   display: flex;
   align-items: center;
-
 `;
 
 export const LinkList = styled.ul`
@@ -62,7 +60,6 @@ export const LinkList = styled.ul`
   justify-content: space-around;
   gap: 40px;
   padding: 40px 0 28px;
-
   }
 `;
 
@@ -80,6 +77,4 @@ export const LinkTitle = styled.h4`
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.4);
   margin-bottom: 16px;
-
-  
 `;
