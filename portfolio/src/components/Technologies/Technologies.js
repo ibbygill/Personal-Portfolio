@@ -1,6 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiNodejsSmall } from 'react-icons/di';
-import { FaServer } from 'react-icons/fa';
+import { DiFirebase, DiReact, DiNodejsSmall } from 'react-icons/di';
+
 import {
   Section,
   SectionDivider,
@@ -12,6 +12,8 @@ import {
   List,
   ListContainer,
   ListItem,
+  ListParagraph,
+  ListTitle,
 } from './TechnologiesStyles';
 
 const Technologies = () => (
@@ -29,18 +31,21 @@ const Technologies = () => (
       <List>
           <DiReact size="3rem" />
           <ListContainer>
-           {/* add in front end tools i use */}
+            <ListTitle>Front-End</ListTitle>
+            <ListParagraph>React.js, Next.js</ListParagraph>
           </ListContainer>
         <ListItem>
           <DiNodejsSmall size="3rem" />
           <ListContainer>
-            {/* add in baack end tools i use */}
+            <ListTitle>Back-End</ListTitle>
+            <ListParagraph>Express.js</ListParagraph>
           </ListContainer>
         </ListItem>
         <ListItem>
           <DiFirebase size="3rem" />
           <ListContainer>
-            {/* add in database tools i use */}
+            <ListTitle>Databases</ListTitle>
+            <ListParagraph>MongoDb, MySql, Firebase</ListParagraph>
           </ListContainer>
         </ListItem>
       </List>
