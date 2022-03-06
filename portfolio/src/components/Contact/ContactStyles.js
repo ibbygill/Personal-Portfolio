@@ -50,9 +50,9 @@ export const ContactInfo = styled.div`
   border-radius: 10px;
 
   img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
   }
 
   @media only screen and (max-width: 1200px) {
@@ -115,6 +115,7 @@ export const ContactForm = styled.form`
   height: 100%;
   background: #fff;
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 2%;
 
   h2 {
     color: black;

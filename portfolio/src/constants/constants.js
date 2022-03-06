@@ -4,7 +4,7 @@ export const projects = [
         title: 'CompassPlus',
         description:
         "CompassPlus was a project that we presented to industry professionals in our 3rd semester.",
-        image: '/images/compass',
+        image: '/images/Compass-Projects.png',
         tags: ['React', 'Figma', 'Styled-Components'],
         source: 'https://github.com/',
         visit: 'blank',

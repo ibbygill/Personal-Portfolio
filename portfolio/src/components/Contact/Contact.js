@@ -74,7 +74,7 @@ const Contact = () => {
         <ContactContainer>
           <ContactInfo>
             <img
-              src="/images/photo-manu.jpg"
+              src="/images/contact-ibjyot.jpg"
               alt="contact-photo"
               loading="lazy"
             />

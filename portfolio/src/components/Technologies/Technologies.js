@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiNodejsSmall } from 'react-icons/di';
+import { DiFirebase, DiReact, DiNodejsSmall, MdDesignServices } from 'react-icons/di';
 
 import {
   Section,
@@ -33,7 +33,7 @@ const Technologies = () => (
             <DiReact size="3rem" />
             <ListContainer>
                 <ListTitle>Front-End</ListTitle>
-                <ListParagraph>React.js, Next.js, Redux-Toolkit</ListParagraph>
+                <ListParagraph>React.js, Next.js</ListParagraph>
             </ListContainer>
             </ListItem>
             <ListItem>
