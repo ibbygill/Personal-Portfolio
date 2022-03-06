@@ -24,4 +24,19 @@ export const AvatarContainer = styled.div`
     width: 500px;
     border-radius: 50%;
   }
+  @media ${(props) => props.theme.breakpoints.lg} {
+    height: 400px;
+    width: 400px;
+    top: 50px;
+    img {
+      height: 400px;
+      width: 400px;
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    display: none;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: none;
+  }
 `;

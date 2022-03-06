@@ -2,6 +2,19 @@ import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+  }
 `;
 
 export const HeroButton = styled.button`
@@ -35,6 +48,9 @@ export const HeroButton = styled.button`
     -o-transition: all 0.8s ease-in-out;
     -webkit-transition: all 0.8s ease-in-out;
     transition: all 0.8s ease-in-out;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 15px;
   }
 `;
 
@@ -71,5 +87,8 @@ export const HeroButton2 = styled.a`
     transition: all 0.8s ease-in-out;
     -webkit-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 15px;
   }
 `;
