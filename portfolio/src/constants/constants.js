@@ -14,7 +14,7 @@ export const projects = [
         title: 'Steady',
         description:
         "This is a project my project team developed based around self-therapy, where it would give suggestions based on daily havits.",
-        image: '/images/steady',
+        image: '/images/steady-projects.png',
         tags: ['React', 'Next', 'Styled-Components'],
         source: 'https://github.com/wilyyy/Steady',
         visit: 'https://steadyofficial.vercel.app/',

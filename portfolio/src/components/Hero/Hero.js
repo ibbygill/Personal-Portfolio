@@ -34,7 +34,7 @@ const Hero = () => (
         </motion.div>
         <motion.div variants={item}>
           <SectionText>
-            I'm a highly motivated FrontEnd Web-Developer who is passionate about learning new technologies.
+            I'm a highly motivated Front-end Web Developer who is passionate about learning new technologies.
           </SectionText>
         </motion.div>
         <motion.div style={{ display: "flex", paddingBottom: 32 }} variants={item}>

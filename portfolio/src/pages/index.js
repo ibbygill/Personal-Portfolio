@@ -4,6 +4,7 @@ import Hero from "../components/Hero/Hero";
 import HeroImg from "../components/HeroImg/HeroImg";
 import Technologies from "../components/Technologies/Technologies";
 import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       </Section>
       <Projects />
       <Technologies />
+      <Contact />
     </Layout>
   );
 };
