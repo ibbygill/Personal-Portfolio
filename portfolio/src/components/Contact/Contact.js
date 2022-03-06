@@ -8,26 +8,27 @@ import {
 } from '../../styles/GlobalComponents';
 
 import {
-  ContInfo,
+  ContactInfo,
   ContactForm,
   FormBox,
   InputBox,
-  ContContainer,
+  ContactContainer,
   InfoContainer,
   InfoItemContainer,
   InfoItem,
-  Alert,
+  AlertMessage,
 } from './ContactStyles';
 
-import { AnimatePresence } from 'framer-motion';
 import SlideUpWhenVisible from '../../utils/SlideUpWhenVisible';
+import { AnimatePresence } from 'framer-motion';
+
 import { AiOutlineMail } from 'react-icons/ai';
 import { FiPhoneCall } from 'react-icons/fi';
-import BarLoader from 'react-spinners/BarLoader';
-import { TiTick } from 'react-icons/ti';
 import { MdLocationOn } from 'react-icons/md';
-import { IoIosClose } from 'react-icons/io';
 import { IconContext } from 'react-icons/lib';
+import { TiTick } from 'react-icons/ti';
+import { IoIosClose } from 'react-icons/io';
+import BarLoader from 'react-spinners/BarLoader';
 
 const Contact = () => {
   const [contactSuccess, setContactSuccess] = useState('');
@@ -49,7 +50,7 @@ const Contact = () => {
       .then(
         (result) => {
           setLoading(false);
-          setContactSuccess(`Message Sent, I will get back to you shortly`);
+          setContactSuccess(`Message Sent, We will get back to you shortly`);
           setTimeout(() => {
             setContactSuccess('');
           }, 5000);
@@ -70,10 +71,10 @@ const Contact = () => {
       <SectionDivider />
       <SectionSubTitle main>Contact</SectionSubTitle>
       <SlideUpWhenVisible>
-        <ContContainer>
-          <ContInfo>
+        <ContactContainer>
+          <ContactInfo>
             <img
-              src="/images/"
+              src="/images/photo-manu.jpg"
               alt="contact-photo"
               loading="lazy"
             />
@@ -83,7 +84,7 @@ const Contact = () => {
                 <InfoItem>
                   <AiOutlineMail />
                   <a
-                    href="mailto:ibjyot17@gmail.com"
+                    href="mailto:mcufre84@gmail.com"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     <h5>ibjyotgill@ibjyot.dev</h5>
@@ -92,7 +93,7 @@ const Contact = () => {
                 <InfoItem>
                   <FiPhoneCall />
                   <a
-                    href="tel:+16046217937"
+                    href="tel:+34680832169"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     {' '}
@@ -113,7 +114,7 @@ const Contact = () => {
                 </InfoItem>
               </InfoItemContainer>
             </InfoContainer>
-          </ContInfo>
+          </ContactInfo>
           <ContactForm ref={formRef} onSubmit={handleSubmit}>
             <h2>Get In Touch</h2>
             <FormBox>
@@ -151,7 +152,7 @@ const Contact = () => {
             </FormBox>
             <AnimatePresence>
               {(contactSuccess || contactError) && (
-                <Alert
+                <AlertMessage
                   className={contactSuccess ? 'success-msg' : 'error-msg'}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -166,11 +167,11 @@ const Contact = () => {
                       <TiTick /> {contactSuccess}
                     </>
                   )}
-                </Alert>
+                </AlertMessage>
               )}
             </AnimatePresence>
           </ContactForm>
-        </ContContainer>
+        </ContactContainer>
       </SlideUpWhenVisible>
     </Section>
   );
