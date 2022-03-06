@@ -28,7 +28,7 @@ const Projects = () => (
     <SectionSubTitle main>Projects</SectionSubTitle>
     <GridContainer>
       {projects.map(
-        ({ title, description, image, tags, source, visit, id }) => (
+        ({ title, description, image, id, tags, source, visit }) => (
           <SlideUpWhenVisible key={id} threshold={0.01}>
             <BlogCard>
               <Img src={image} alt={`project-image-${id}`} loading="lazy" />
