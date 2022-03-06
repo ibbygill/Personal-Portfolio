@@ -8,7 +8,11 @@ export const BackToTopIconContainer = styled.div`
   flex-direction: column;
   bottom: 50px;
   right: 50px;
-  z-index: 1000;
+  z-index: 100;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    right: 10px;
+    bottom: 10px;
+  }
 `;
 
 export const BackToTopIcon = styled(motion.div)`

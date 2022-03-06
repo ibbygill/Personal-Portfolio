@@ -29,11 +29,11 @@ const Header = () => (
           }}
         >
           <img
-            src="/images/logo.png"
+            src="/images/Logo-IG.png"
             alt="brand-logo"
             className="brand-logo"
           />
-          <Span className="brand-name"></Span>
+          <Span className="brand-name">Ibjyot Gill</Span>
         </a>
       </Link>
     </Div1>

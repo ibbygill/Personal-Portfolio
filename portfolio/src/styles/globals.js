@@ -10,9 +10,8 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
   html {
-    font-size: 62.5%;
+    font-size: 60%;
     scroll-behavior: smooth;
-
   }
   body {
     font-family: ${(props) => props.theme.fonts.main};
