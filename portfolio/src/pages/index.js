@@ -3,6 +3,7 @@ import { Section } from "../styles/GlobalComponents";
 import Hero from "../components/Hero/Hero";
 import HeroImg from "../components/HeroImg/HeroImg";
 import Technologies from "../components/Technologies/Technologies";
+import Projects from "../components/Projects/Projects";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Hero />
         <HeroImg />
       </Section>
+      <Projects />
       <Technologies />
     </Layout>
   );

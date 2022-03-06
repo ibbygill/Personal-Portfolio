@@ -9,4 +9,4 @@ export const global_theme = {
     }
 };
 
-// still need to change i think
+// still need to change this is for dark mode / light mode
