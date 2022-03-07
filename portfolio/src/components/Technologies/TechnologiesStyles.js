@@ -27,6 +27,10 @@ export const ImageContainer = styled.div`
   }
 `;
 
+export const IconList = styled.div`
+  flex-direction: row;
+`;
+
 export const MainImage = styled.img`
   width: 100%;
 `;

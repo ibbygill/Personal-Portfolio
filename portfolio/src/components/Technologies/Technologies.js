@@ -1,5 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiNodejsSmall, MdDesignServices } from 'react-icons/di';
+import { DiFirebase, DiReact } from 'react-icons/di';
+
+import { SiFigma, SiHtml5, SiCss3, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 
 import {
   Section,
@@ -14,6 +16,7 @@ import {
   ListItem,
   ListParagraph,
   ListTitle,
+  IconList
 } from './TechnologiesStyles';
 
 const Technologies = () => (
@@ -22,32 +25,44 @@ const Technologies = () => (
     <SectionSubTitle main>About</SectionSubTitle>
     <SlideUpWhenVisible>
       <SectionText>
-        I'm a web developer specialized in the JavaScript environment. For the
-        front-end I use React.js and for the back-end I use Node.js,
-        particularly with the Express framework.
+        I'm a web developer specialized in the JavaScript environment. Using HTML5|CSS3
+        design techniques to create dynamic designs. That are implemented with styled components 
+        and react frameworks.
       </SectionText>
     </SlideUpWhenVisible>
     <SlideUpWhenVisible>
         <List>
             <ListItem>
+            <IconList>
             <DiReact size="3rem" />
+            <span> </span>
+            <SiHtml5 size="3rem" />
+            <span> </span>
+            <SiCss3 size="3rem" />
+            </IconList>
             <ListContainer>
                 <ListTitle>Front-End</ListTitle>
-                <ListParagraph>React.js, Next.js</ListParagraph>
+                <ListParagraph>HTML5, CSS3, Next.js, Styled, Javascript, React, Node.js</ListParagraph>
             </ListContainer>
             </ListItem>
             <ListItem>
-            <DiNodejsSmall size="3rem" />
+            <IconList>
+            <SiFigma size="3rem" />
+            <span></span>
+            <SiAdobephotoshop size="3rem" />
+            <span> </span>
+            <SiAdobeillustrator size="3rem" />
+            </IconList>
             <ListContainer>
-                <ListTitle>Back-End</ListTitle>
-                <ListParagraph>Express.js</ListParagraph>
+                <ListTitle>Design</ListTitle>
+                <ListParagraph>Figma,After Effects, Illustrator, Photoshop </ListParagraph>
             </ListContainer>
             </ListItem>
             <ListItem>
             <DiFirebase size="3rem" />
             <ListContainer>
                 <ListTitle>Databases</ListTitle>
-                <ListParagraph>MongoDb, MySql</ListParagraph>
+                <ListParagraph>MongoDb, MySql, PHP</ListParagraph>
             </ListContainer>
             </ListItem>
       </List>
