@@ -25,7 +25,7 @@ const Technologies = () => (
     <SectionSubTitle main>About</SectionSubTitle>
     <SlideUpWhenVisible>
       <SectionText>
-        I'm a web developer specialized in the JavaScript environment. Using HTML5|CSS3
+        I am a web developer specialized in the JavaScript environment. Using HTML5|CSS3
         design techniques to create dynamic designs. That are implemented with styled components 
         and react frameworks.
       </SectionText>

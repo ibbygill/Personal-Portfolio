@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import Image from 'next/image';
 
 import {
   Section,
@@ -73,7 +74,7 @@ const Contact = () => {
       <SlideUpWhenVisible>
         <ContactContainer>
           <ContactInfo>
-            <img
+            <Image
               src="/images/contact-ibjyot.jpg"
               alt="contact-photo"
               loading="lazy"
@@ -107,6 +108,7 @@ const Contact = () => {
                   <a
                     href="https://goo.gl/maps/XT8it3qpkxxPgW976"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     <h5>Abbotsford, British Columbia</h5>
