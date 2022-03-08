@@ -34,8 +34,7 @@ const Hero = () => (
         </motion.div>
         <motion.div variants={item}>
           <SectionText>
-            I am a highly motivated Front-end Web Developer
-            <br />
+            Highly motivated Front-end Web Developer
             who is passionate about learning new technologies.
           </SectionText>
         </motion.div>
