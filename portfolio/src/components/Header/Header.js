@@ -31,6 +31,8 @@ const Header = () => (
           }}
         >
           <Image
+            width="35px"
+            height="35px"
             src="/images/Logo-IG.png"
             alt="brand-logo"
             className="brand-logo"

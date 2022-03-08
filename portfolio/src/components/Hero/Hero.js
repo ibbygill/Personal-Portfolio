@@ -27,14 +27,16 @@ const Hero = () => (
       <motion.div variants={container} initial="hidden" animate="show">
         <motion.div variants={item}>
           <SectionTitle main center noMarginTop>
-            Hi! My name is Ibjyot <br />
+            Hi! I am Ibjyot <br />
             Welcome To <br />
             My Portfolio
           </SectionTitle>
         </motion.div>
         <motion.div variants={item}>
           <SectionText>
-            I am a highly motivated Front-end Web Developer who is passionate about learning new technologies.
+            I am a highly motivated Front-end Web Developer
+            <br />
+            who is passionate about learning new technologies.
           </SectionText>
         </motion.div>
         <motion.div style={{ display: "flex", paddingBottom: 32 }} variants={item}>

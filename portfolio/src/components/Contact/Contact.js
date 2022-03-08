@@ -78,6 +78,8 @@ const Contact = () => {
               src="/images/contact-ibjyot.jpg"
               alt="contact-photo"
               loading="lazy"
+              width="150px"
+              height="175px"
             />
             <InfoContainer>
               <h2>Contact Info</h2>
